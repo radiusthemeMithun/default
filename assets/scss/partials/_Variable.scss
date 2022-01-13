@@ -1,0 +1,90 @@
+/*============================
+// font family
+============================*/
+$font-body: "Poppins", sans-serif;
+$font-title: "Source Sans Pro", sans-serif;
+$font-awesome: "Font Awesome 5 Free";
+
+$color-primary: #1877f2;
+$color-secondary: #f67280;
+
+$color-white: #fff;
+$color-black: #000;
+
+
+$color-body: #646464;
+$color-grey: #f9f9f9;
+
+
+$color-gradient: linear-gradient(90deg, #a548de 4.27%, #1a47e8 117.6%);
+
+
+$border-radius-xs: 4px;
+$border-radius-sm: 6px;
+$border-radius-md: 10px;
+$border-radius-lg: 15px;
+$border-radius-xl: 20px;
+
+$color-fb: #1559c2;
+$color-tw: #1ea9e9;
+$color-in: #3f729b;
+$color-vm: #2cc0eb;
+$color-pn: #3b5998;
+$color-wh: #43ce13;
+$color-dr: #f65e97;
+$color-dw: #ff6b10;
+$color-yu: #ed1d25;
+
+:root {
+  --color-primary: #3e64ff;
+  --color-secondary: #F67280;
+
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-body: #646464;
+
+  --color-grey: #f9f9f9;
+
+
+  --font-body: "Poppins", sans-serif;
+  --font-title: "Source Sans Pro", sans-serif;
+  --font-awesome: "Font Awesome 5 Free";
+
+  --color-gradient: linear-gradient( 90deg, #a548de 4.27%, #1a47e8 117.6%);
+
+  --color-fb: #1559c2;
+  --color-tw: #1ea9e9;
+  --color-in: #3f729b;
+  --color-vm: #2cc0eb;
+  --color-pn: #3b5998;
+  --color-wh: #43ce13;
+  --color-dr: #f65e97;
+  --color-dw: #ff6b10;
+  --color-yu: #ed1d25;
+
+  --border-radius-xs: 4px;
+  --border-radius-sm: 6px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+  --border-radius-xl: 20px;
+}
+
+/*============================
+// brakpoints
+============================*/
+$breakpoints: (
+  "xs": (
+    max-width: 575px,
+  ),
+  "sm": (
+    max-width: 767px,
+  ),
+  "md": (
+    max-width: 991px,
+  ),
+  "lg": (
+    max-width: 1199px,
+  ),
+) !default;
